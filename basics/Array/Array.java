@@ -7,6 +7,12 @@ public class Array {
         furit[0] = "banana";
         System.out.println(furit[0]);
 
+        //for each
+        for(String f : furit){
+            System.out.println("for each " + f + " ");
+        }
+
+
         //=> use new when you have creat array and fill the value after
         String[] cars = new String[3];
          cars[0] = "volvo";
